@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-web url: https://ruili4ucsd.github.io/CSE110_Lab2_Starter/
+# Lab 3
+web url: https://ruili4ucsd.github.io/sp23-cse110-lab3/
