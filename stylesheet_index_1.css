@@ -1,0 +1,128 @@
+/* 
+selector {
+    property1: value1;
+    property2: value2;
+}
+*/
+
+html{
+	/*I want to put an image here*/
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+
+header{
+    padding: 10px 20px 20px 20px;
+    background-color:#f05b72;
+    margin: 2em, 2em, 2em, 2em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(235, 224, 224);
+    border-radius: 2em;
+}
+nav{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background-color:#f7acbc;
+}
+nav > ul > li > a{
+	color: rgb(85,107,47);
+}
+a:active {
+    background-color: yellow;
+}
+a:hover {
+    font-size:1.3em;
+    color: rgb(187, 70, 70);
+}
+body{
+    padding: 10px 20px 20px 20px;
+	width: 90%;
+	background-color:#feeeed;
+	box-shadow: #735E5C 15px 0px 25px,
+				rgb(51, 51, 51) -15px 0px 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(235, 224, 224);
+    border-radius: 2em;
+}
+h1{
+	text-align: center; 
+    margin-top: 1rem;
+    margin-left: 0.5em;
+    font-family: 'Ms Madi', cursive;
+    text-decoration: underline;
+}
+h2{
+	text-align: center; 
+	font-size:1.3em;
+	margin-bottom: 1.5vh;
+    margin-left: 0.5em;
+}
+h3{
+	/* text-align: center; */
+    color: darkred;
+	font-size:1.1em;
+	margin-top: 1em;
+    margin-left: 0.5em;
+}
+h4{
+	/* text-align: center; */
+    font-size:1px;
+	margin-top: 0.3cm;
+    margin-left: 3mm;
+}
+p{
+    position: relative;
+    color: #87481f;
+    margin-left: 0.5em;
+    line-height: 140%;
+    font-family: 'Ms Madi', cursive;
+}
+video {
+    display: block;
+    margin: 0 auto;
+}
+img{
+    position: static;
+    display: inline;
+    height: 10em;
+    width: 10em;
+    max-width: 10em;
+    min-width: 10em;
+}
+footer{
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    margin-left: auto;
+	margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/* Flexbox Layout */
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
